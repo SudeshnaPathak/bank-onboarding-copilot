@@ -1,0 +1,14 @@
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      DEMO_MODE: "true"
+      CORS_ORIGINS: "http://localhost:5173"
+      SAMPLES_DIR: /srv/samples
+      GOOGLE_API_KEY: ""     # optional: enables Gemini; otherwise the rule-based service runs
+    volumes:
+      - ./samples:/srv/samples:ro
+      - appdata:/srv/data
+volumes:
+  appdata:

@@ -1,0 +1,56 @@
+{
+  "clean": {
+    "title": "Clean application",
+    "description": "All three documents agree. Expect a high consistency score.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  },
+  "mismatch": {
+    "title": "Messy application",
+    "description": "DOB differs on the licence, Aadhaar shows an old address, one low-confidence name.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  },
+  "expired_dl": {
+    "title": "Expired licence",
+    "description": "Everything matches but the driving licence has expired.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  },
+  "blurry": {
+    "title": "Blurry PAN photo",
+    "description": "The first PAN upload is blurry and is rejected; a retake succeeds.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  },
+  "injection": {
+    "title": "Prompt-injection attempt",
+    "description": "The PAN image contains hidden instructions. They must have no effect.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  },
+  "watchlist": {
+    "title": "Watchlist screening",
+    "description": "The name resembles an entry on the synthetic watchlist.",
+    "documents": [
+      "aadhaar",
+      "driving_licence",
+      "pan"
+    ]
+  }
+}

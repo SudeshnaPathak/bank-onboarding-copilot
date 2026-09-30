@@ -1,0 +1,7 @@
+{
+  "_note": "SYNTHETIC demo list. Replace with the bank's licensed screening source in production.",
+  "entries": [
+    {"name": "Vikram Rathod Demo", "dob": "02/02/1975", "list": "SYNTHETIC-SANCTIONS", "reason": "Demo entry"},
+    {"name": "Meera Kapoor Demo",  "dob": null,         "list": "SYNTHETIC-PEP",       "reason": "Demo entry"}
+  ]
+}

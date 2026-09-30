@@ -1,0 +1,26 @@
+# Versioned rule set. Every flag and penalty comes from here; no LLM decides a flag or a score.
+# Penalties are starting points: tune them against the eval set (backend/evals) and bump `version`.
+version: 1
+confirmed_multiplier: 0.5     # penalty factor when the customer explicitly confirmed the conflicting value
+bands:
+  ready: 85                   # >= 85  -> "clean"
+  review: 60                  # 60-84  -> "review"; below -> "attention"
+thresholds:
+  address_ratio: 80
+  low_confidence: 0.80
+  expiring_days: 90
+  min_age: 18
+  watchlist_ratio: 90
+flags:
+  NAME_MISMATCH:          {severity: high,     penalty: 25, title: "Name differs across documents"}
+  DOB_MISMATCH:           {severity: high,     penalty: 25, title: "Date of birth differs across documents"}
+  ADDRESS_MISMATCH:       {severity: medium,   penalty: 15, title: "Address differs across documents"}
+  DOC_EXPIRED:            {severity: high,     penalty: 30, title: "Document has expired"}
+  DOC_EXPIRING_SOON:      {severity: low,      penalty: 5,  title: "Document expires soon"}
+  AADHAAR_CHECKSUM_FAILED: {severity: medium,  penalty: 15, title: "Aadhaar number fails its checksum"}
+  DL_FORMAT_INVALID:      {severity: medium,   penalty: 10, title: "Licence number format looks wrong"}
+  UNDERAGE:               {severity: high,     penalty: 30, title: "Applicant appears to be under 18"}
+  WATCHLIST_HIT:          {severity: critical, penalty: 40, title: "Possible watchlist match"}
+  MISSING_DOCUMENT:       {severity: high,     penalty: 30, title: "Required document missing"}
+  LOW_CONFIDENCE_FIELD:   {severity: low,      penalty: 5,  title: "Low-confidence extraction"}
+  LLM_FALLBACK_USED:      {severity: low,      penalty: 3,  title: "Field filled by AI fallback"}

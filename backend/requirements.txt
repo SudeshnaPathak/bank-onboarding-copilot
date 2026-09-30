@@ -1,0 +1,24 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy[asyncio]>=2.0
+aiosqlite>=0.20
+asyncpg>=0.29            # only needed for Postgres
+pydantic>=2.7
+pydantic-settings>=2.3
+pyjwt>=2.8
+cryptography>=42
+python-multipart>=0.0.9
+pillow>=10
+numpy>=1.26
+rapidfuzz>=3.9
+pyyaml>=6
+pypdf>=4                     # PDF text layer + structure checks
+pypdfium2>=4.30              # rasterises scanned PDFs for OCR (no system poppler needed)
+langgraph>=0.4
+langchain-core>=0.3
+langgraph-checkpoint-sqlite>=2.0
+langchain-google-genai>=2.0   # only used when GOOGLE_API_KEY is set
+paddleocr>=3.7.0                 # only needed when OCR_ENGINE=paddle
+paddlepaddle>=3.3.0                # only needed when OCR_ENGINE=paddle
+# Real OCR (optional; without it the deterministic fixture engine serves the bundled sample documents):
+#   pip install paddlepaddle paddleocr
