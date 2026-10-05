@@ -82,3 +82,25 @@ def compatible(field: str, a: str, b: str, address_ratio: int = 80) -> bool:
     if field == "address":
         return address_similarity(a, b) >= address_ratio
     return a.strip().upper() == b.strip().upper()
+
+
+def canonical_name(text: str) -> str:
+    t = re.sub(r"[^A-Za-z .'-]", " ", text or "")
+    t = re.sub(r"\s+", " ", t).strip(" .-'")
+    return t.title() if (t.isupper() or t.islower()) else t
+
+
+def same_value(field: str, a: str, b: str) -> bool:
+    if field == "name":
+        return names_compatible(a, b)
+    return re.sub(r"\s+", " ", (a or "").strip()).casefold() == re.sub(r"\s+", " ", (b or "").strip()).casefold()
+
+
+def dob_plausible(dob: str, today: date) -> bool:
+    if re.fullmatch(r"\s*(19|20)\d{2}\s*", dob or ""):
+        return today.year - int(dob) <= 110
+    d = parse_date(dob)
+    if d is None:
+        return False
+    age = today.year - d.year - ((today.month, today.day) < (d.month, d.day))
+    return 0 <= age <= 110

@@ -1,8 +1,10 @@
 """Pure functions that decide what the conversation needs next. Deterministic and unit-tested."""
 from __future__ import annotations
 
+from datetime import date
+
 from ..rules.engine import threshold
-from ..rules.matchers import compatible
+from ..rules.matchers import compatible, dob_plausible
 from .form_schema import FIELD_BY_KEY, FIELDS, PRODUCTS
 
 CONFIRM_FIELDS = ("name", "dob", "address")
@@ -18,6 +20,8 @@ def missing_docs(product: str, uploaded: set[str]) -> list[str]:
 
 
 def needs_confirmation(field: str, candidates: list[dict]) -> str | None:
+    if field == "dob" and any(not dob_plausible(c["value"], date.today()) for c in candidates):
+        return "low_confidence"
     """Returns the reason a field must be confirmed by the customer, or None."""
     if any(c["confidence"] < threshold("low_confidence") for c in candidates):
         return "low_confidence"

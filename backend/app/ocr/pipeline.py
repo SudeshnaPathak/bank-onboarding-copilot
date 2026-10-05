@@ -79,7 +79,7 @@ async def extract_document(path: str, doc_type: str, llm=None) -> ExtractionResu
     lines = [(t, c) for t, c in ((normalize_text(t).strip(), c) for t, c in lines) if t]
     texts = [t for t, _ in lines]
     raw_text = "\n".join(texts)
-    fields = PARSERS[doc_type](texts) if texts else {}
+    fields = PARSERS[doc_type](texts, [score for _, score in lines]) if texts else {}
     source = {k: base_source for k in fields}
     if fields.get("aadhaar_number") and not valid_aadhaar(fields["aadhaar_number"]):
         source["aadhaar_number"] = "ocr_checksum_failed"
