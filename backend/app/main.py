@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+from importlib import import_module
 from contextlib import asynccontextmanager
 
 from fastapi import Depends, FastAPI
@@ -22,7 +23,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name
 
 async def _open_checkpointer(stack, url: str):
     if url.startswith("postgres"):
-        from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
+        AsyncPostgresSaver = import_module(
+            "langgraph.checkpoint.postgres.aio"
+        ).AsyncPostgresSaver
         saver = await stack.enter_async_context(AsyncPostgresSaver.from_conn_string(url))
     else:
         from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver

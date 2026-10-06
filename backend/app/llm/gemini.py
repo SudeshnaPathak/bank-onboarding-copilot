@@ -1,18 +1,17 @@
-"""Gemini-backed LLMService via LangChain structured output.
-
-NOTE: written against langchain-google-genai's public API but not executed in the sandbox this repo was
-built in (no API key). ResilientLLM wraps every call, so any failure degrades to the rule-based service.
-"""
+"""Gemini via AI Passport Gateway (OpenAI-compatible endpoint, US production by default)."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
-from pydantic import BaseModel, Field
+from openai import AsyncOpenAI
+from pydantic import BaseModel, Field, ValidationError
 
 from ..rag.retriever import Passage
 from . import stats
 from .base import INTENTS, GuideAnswer
 
+DEFAULT_BASE_URL = "https://openai.generative.engine.capgemini.com/v1"
 _PROMPT_DIR = Path(__file__).with_name("prompts")
 
 
@@ -43,31 +42,66 @@ class ExtractOut(BaseModel):
     fields: dict[str, str | None]
 
 
+def _strip_fences(text: str) -> str:
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[-1].rsplit("```", 1)[0]
+    return text.strip()
+
+
+def _usage(resp) -> dict | None:
+    # Mapped to the LangChain usage_metadata shape; adjust to whatever stats.record_call expects.
+    u = getattr(resp, "usage", None)
+    if u is None:
+        return None
+    return {
+        "input_tokens": u.prompt_tokens,
+        "output_tokens": u.completion_tokens,
+        "total_tokens": u.total_tokens,
+    }
+
+
 class GeminiLLM:
     name = "gemini"
 
-    def __init__(self, api_key: str, model: str, router_model: str = ""):
-        from langchain_google_genai import ChatGoogleGenerativeAI
-
-        kw = dict(google_api_key=api_key, temperature=0, max_retries=2, timeout=30)
-        self._chat = ChatGoogleGenerativeAI(model=model, **kw)
-        self._router = ChatGoogleGenerativeAI(model=router_model or model, **kw)
+    def __init__(self, api_key: str, model: str, router_model: str = "",
+                 base_url: str = DEFAULT_BASE_URL):
+        # Same timeout and retry budget as your previous LangChain client.
+        self._client = AsyncOpenAI(base_url=base_url, api_key=api_key,
+                                   timeout=30.0, max_retries=2)
         self.model = model
+        self.router_model = router_model or model
 
-    async def _run(self, chat, schema, prompt_name: str, human: str):
-        from langchain_core.messages import HumanMessage, SystemMessage
+    async def close(self) -> None:
+        await self._client.close()
 
+    async def _complete(self, model: str, system: str, human: str, max_tokens: int = 1024):
+        return await self._client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": human},
+            ],
+            max_completion_tokens=max_tokens,
+            temperature=0,  # not documented for this endpoint; remove if the gateway rejects it
+        )
+
+    async def _run(self, model: str, schema, prompt_name: str, human: str):
         system, _ = load_prompt(prompt_name)
-        out = await chat.with_structured_output(schema, include_raw=True).ainvoke(
-            [SystemMessage(content=system), HumanMessage(content=human)])
-        raw = out.get("raw")
-        stats.record_call(prompt_name, getattr(raw, "usage_metadata", None))
-        if out.get("parsed") is None:
-            raise ValueError(f"unparseable model output for {prompt_name}")
-        return out["parsed"]
+        system += (
+            "\n\nRespond with ONLY a JSON object that matches this JSON Schema. "
+            "No prose, no code fences:\n" + json.dumps(schema.model_json_schema())
+        )
+        resp = await self._complete(model, system, human)
+        stats.record_call(prompt_name, _usage(resp))
+        text = _strip_fences(resp.choices[0].message.content or "")
+        try:
+            return schema.model_validate_json(text)
+        except ValidationError as exc:
+            raise ValueError(f"unparseable model output for {prompt_name}") from exc
 
     async def classify_intent(self, text: str, context: dict) -> str:
-        res = await self._run(self._router, IntentOut, "router",
+        res = await self._run(self.router_model, IntentOut, "router",
                               f"Current step: {context.get('step')}\n<customer_message>{text}</customer_message>")
         if res.intent not in INTENTS:
             raise ValueError("bad intent")
@@ -75,25 +109,25 @@ class GeminiLLM:
 
     async def answer(self, question: str, passages: list[Passage]) -> GuideAnswer:
         ctx = "\n".join(f"[{p.id}] ({p.doc} / {p.section}) {p.text}" for p in passages)
-        res = await self._run(self._chat, GuideOut, "guide", f"Passages:\n{ctx}\n\n<question>{question}</question>")
+        res = await self._run(self.model, GuideOut, "guide",
+                              f"Passages:\n{ctx}\n\n<question>{question}</question>")
         valid = {p.id for p in passages}
         used = [i for i in res.used_ids if i in valid]
         if not used:
-            raise ValueError("answer cites no retrieved passage")  # ungrounded -> fall back to extractive
+            raise ValueError("answer cites no retrieved passage")  # ungrounded -> fall back
         return GuideAnswer(res.answer, used)
 
     async def parse_field(self, field_key: str, choices: list[str], text: str) -> str | None:
-        res = await self._run(self._router, FieldOut, "parse_field",
+        res = await self._run(self.router_model, FieldOut, "parse_field",
                               f"Field: {field_key}\nAllowed: {choices}\n<message>{text}</message>")
         return res.value if res.value in choices else None
 
     async def fallback_extract(self, doc_type: str, raw_text: str, missing: list[str]) -> dict[str, str]:
-        res = await self._run(self._chat, ExtractOut, "extract",
+        res = await self._run(self.model, ExtractOut, "extract",
                               f"Document type: {doc_type}\nFields to extract: {missing}\n<ocr_text>\n{raw_text}\n</ocr_text>")
         return {k: v for k, v in res.fields.items() if v and k in missing}
 
     async def summarize_review(self, payload: dict) -> str:
-        import json
-        res = await self._chat.ainvoke([("system", load_prompt("review_summary")[0]), ("human", json.dumps(payload))])
-        stats.record_call("review_summary", getattr(res, "usage_metadata", None))
-        return str(res.content).strip()
+        resp = await self._complete(self.model, load_prompt("review_summary")[0], json.dumps(payload))
+        stats.record_call("review_summary", _usage(resp))
+        return (resp.choices[0].message.content or "").strip()

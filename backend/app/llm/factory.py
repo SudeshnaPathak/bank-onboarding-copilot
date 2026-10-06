@@ -41,15 +41,26 @@ def get_llm() -> LLMService:
     global _llm
     if _llm is None:
         s = get_settings()
-        use_gemini = s.llm_provider == "gemini" or (s.llm_provider == "auto" and s.google_api_key)
-        if use_gemini and s.google_api_key:
+        use_gemini = s.llm_provider == "gemini" or (s.llm_provider == "auto" and s.aipg_api_key)
+        if use_gemini and s.aipg_api_key:
             from .gemini import GeminiLLM
-            _llm = ResilientLLM(GeminiLLM(s.google_api_key, s.gemini_model, s.gemini_router_model), RuleBasedLLM())
+            _llm = ResilientLLM(
+                GeminiLLM(s.aipg_api_key, s.gemini_model, s.gemini_router_model, s.aipg_base_url),
+                RuleBasedLLM(),
+            )
         else:
             _llm = RuleBasedLLM()
+        log.info("LLM service active: %s", _llm.name)
     return _llm
 
 
 def set_llm(llm: LLMService | None) -> None:
     global _llm
     _llm = llm
+
+async def close_llm() -> None:
+    """Call from your app's shutdown hook so the HTTP client closes cleanly."""
+    primary = getattr(_llm, "primary", None)
+    close = getattr(primary, "close", None)
+    if close is not None:
+        await close()

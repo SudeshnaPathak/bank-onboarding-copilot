@@ -30,10 +30,13 @@ class Settings(BaseSettings):
     max_pdf_pages: int = 5           # an ID document is 1-2 pages; more is almost certainly the wrong file
     pdf_render_dpi: int = 200        # used when a scanned PDF has to be rasterised for OCR
 
-    # LLM: "auto" uses Gemini when GOOGLE_API_KEY is set, otherwise the rule-based service.
+    # LLM: "auto" uses the gateway-backed Gemini service when AIPG_API_KEY is set, otherwise the rule-based service.
     llm_provider: str = "auto"  # auto | gemini | rules
-    google_api_key: str = ""
-    gemini_model: str = "gemini-2.5-flash"  # verify against your account's available models
+    aipg_api_key: str = ""
+    # US production. The base URL already includes /v1, so do not append another one.
+    # EU hosting / data residency: https://openai.generative-eu.engine.capgemini.com/v1
+    aipg_base_url: str = "https://openai.generative.engine.capgemini.com/v1"
+    gemini_model: str = "gemini-3.8-flash"  # verify with models.list() for your Studio
     gemini_router_model: str = ""  # optional cheaper model for routing
 
     # OCR: "auto" = PaddleOCR when installed, else fixture engine (deterministic demo/tests)
