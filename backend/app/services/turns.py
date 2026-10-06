@@ -114,7 +114,7 @@ async def run_turn(user: User, case_id: str, *, text: str | None = None, action:
 
     async with session_scope() as s:
         if (action or {}).get("type") != "start" and (text or action or upload):
-            s.add(Message(case_id=case_id, role="user", text=user_display or "(no text)", ui=init["user_ui"], created_at=t0))
+            s.add(Message(case_id=case_id, role="user", text=user_display or "Done", ui=init["user_ui"], created_at=t0))
         for i, r in enumerate(replies):
             s.add(Message(case_id=case_id, role="assistant", text=r["text"], ui=r.get("ui"),
                           meta={"trace": trace} if i == len(replies) - 1 else None,
