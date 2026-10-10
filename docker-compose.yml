@@ -6,7 +6,7 @@ services:
       DEMO_MODE: "true"
       CORS_ORIGINS: "http://localhost:5173"
       SAMPLES_DIR: /srv/samples
-      GOOGLE_API_KEY: ""     # optional: enables Gemini; otherwise the rule-based service runs
+      AIPG_API_KEY: ""     # optional: enables Gemini; otherwise the rule-based service runs
     volumes:
       - ./samples:/srv/samples:ro
       - appdata:/srv/data
