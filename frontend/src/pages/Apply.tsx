@@ -138,9 +138,9 @@ export default function Apply() {
             </section>
           )}
           <AgentActivity trace={trace} />
-          <section className="panel"><h3>Demo tools</h3>
-            <button className="btn btn-ghost" onClick={() => setPickerOpen(true)} disabled={busy || !editable || !samples?.length}>Choose demo documents</button>
-            <button className="btn btn-ghost" onClick={resetDemo} disabled={busy}><RotateCcw size={14} /> Restart demo</button>
+          <section className="panel"><h3>Reset tools</h3>
+            {/* <button className="btn btn-ghost" onClick={() => setPickerOpen(true)} disabled={busy || !editable || !samples?.length}>Choose demo documents</button> */}
+            <button className="btn btn-ghost" onClick={resetDemo} disabled={busy}><RotateCcw size={14} /> Restart Application</button>
           </section>
         </aside>
       </div>
