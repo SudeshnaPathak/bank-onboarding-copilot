@@ -10,6 +10,7 @@ DEMO_USERS = [
     ("priya@example.com", "Priya Sharma", "customer", "demo1234"),
     ("amit@example.com", "Amit Verma", "customer", "demo1234"),
     ("ravi@bank.example.com", "Ravi Menon", "analyst", "demo1234"),
+    ("sudeshna@example.com", "Sudeshna Roy", "customer", "demo1234"),
 ]
 
 

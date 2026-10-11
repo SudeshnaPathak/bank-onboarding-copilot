@@ -45,7 +45,7 @@ export function CardView({ card, active, h }: { card: Card; active: boolean; h: 
               <input ref={fileRef} type="file" accept="image/png,image/jpeg,application/pdf" hidden data-testid="file-input"
                 onChange={(e) => { const f = e.target.files?.[0]; if (f) h.onFile(card.doc_type, f); e.target.value = ""; }} />
               <button className="btn btn-primary" disabled={h.busy} onClick={() => fileRef.current?.click()}>Choose a photo or PDF</button>
-              {h.onSamples && <button className="btn btn-ghost" disabled={h.busy} onClick={h.onSamples}>Use a demo document</button>}
+              {/* {h.onSamples && <button className="btn btn-ghost" disabled={h.busy} onClick={h.onSamples}>Use a demo document</button>} */}
             </div>
           )}
           {card.remaining.length > 1 && <div className="muted small">Still to come: {card.remaining.slice(1).join(", ")}</div>}

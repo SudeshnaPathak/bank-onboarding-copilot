@@ -36,14 +36,14 @@ export default function Login() {
         <label>Password<input value={password} onChange={(e) => setPassword(e.target.value)} type="password" autoComplete="current-password" required /></label>
         {error && <div className="alert" role="alert">{error}</div>}
         <button className="btn btn-primary" disabled={busy}>{busy ? "Signing in…" : "Sign in"}</button>
-        <div className="demo-login">
+        {/* <div className="demo-login">
           <span className="muted small">Demo accounts (password demo1234)</span>
           <div className="row">
             {DEMO.map((d) => (
               <button type="button" key={d.email} className="btn btn-ghost" onClick={() => { setEmail(d.email); setPassword("demo1234"); }}>{d.label}</button>
             ))}
           </div>
-        </div>
+        </div> */}
       </form>
     </main>
   );
