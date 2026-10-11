@@ -1,0 +1,807 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 2440" width="2800" height="2440">
+<defs>
+<marker id="m0D9488" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker>
+<marker id="m0D9488s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker>
+<marker id="m2F5FD0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F5FD0"/></marker>
+<marker id="m2F5FD0s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5FD0"/></marker>
+<marker id="m6B7280" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker>
+<marker id="m6B7280s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker>
+<marker id="m7C2D12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7C2D12"/></marker>
+<marker id="m7C2D12s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7C2D12"/></marker>
+<marker id="m7C3AED" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker>
+<marker id="m7C3AEDs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker>
+<marker id="mD97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker>
+<marker id="mD97706s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker>
+<marker id="mE11D48" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E11D48"/></marker>
+<marker id="mE11D48s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E11D48"/></marker>
+</defs>
+<rect width="2800" height="2440" fill="#FFFFFF"/>
+<rect width="2800" height="118" fill="#0B1B3A"/>
+<rect y="118" width="2800" height="5" fill="#0EA5E9"/>
+<text x="30" y="55" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="start">Bank Onboarding Copilot</text>
+<text x="30" y="92" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="500" fill="#BAE6FD" text-anchor="start">Governed agentic KYC onboarding for retail banking  |  Rules detect  ·  AI explains  ·  Humans decide</text>
+<text x="2770" y="50" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end">Target Architecture: components · data flow · controls</text>
+<text x="2770" y="82" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#BAE6FD" text-anchor="end">Agentic AI Hackathon  |  Stack: LangGraph · FastAPI · React · Gemini (via AI Passport Gateway) · PaddleOCR</text>
+<rect x="30" y="140" width="230" height="1010" rx="16" fill="#F5F8FF" stroke="#2F5FD0" stroke-width="1.6" />
+<text x="46" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#1E3A8A" text-anchor="start" letter-spacing="1.2">EXPERIENCE</text>
+<circle cx="88" cy="250" r="40" fill="#DCE8FF" stroke="#2F5FD0" stroke-width="2"/>
+<text x="88" y="255" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1E3A8A" text-anchor="middle">Customer</text>
+<circle cx="202" cy="250" r="40" fill="#DCE8FF" stroke="#2F5FD0" stroke-width="2"/>
+<text x="202" y="255" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1E3A8A" text-anchor="middle">Analyst</text>
+<path d="M88,292 L88,352" fill="none" stroke="#2F5FD0" stroke-width="2.2" marker-end="url(#m2F5FD0)" stroke-linejoin="round"/>
+<path d="M202,292 L202,352" fill="none" stroke="#2F5FD0" stroke-width="2.2" marker-end="url(#m2F5FD0)" stroke-linejoin="round"/>
+<circle cx="88" cy="322" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="88" y="327" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="45" y="354" width="200" height="381" rx="10" fill="#EAF1FF" stroke="#2F5FD0" stroke-width="1.8" />
+<text x="59" y="378" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#1E3A8A" text-anchor="start">React + Vite SPA</text>
+<text x="59" y="398" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">App.tsx · client.ts</text>
+<circle cx="62" cy="415" r="2.6" fill="#2F5FD0"/>
+<text x="73" y="420" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#1E3A8A">Role-based routing</tspan></text>
+<text x="73" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">(customer | analyst)</text>
+<circle cx="62" cy="458" r="2.6" fill="#2F5FD0"/>
+<text x="73" y="463" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#1E3A8A">Customer:</tspan> chat, ID</text>
+<text x="73" y="483" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">upload</text>
+<text x="73" y="503" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">(JPG/PNG/PDF),</text>
+<text x="73" y="523" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">confirm cards,</text>
+<text x="73" y="543" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">citations, live</text>
+<text x="73" y="563" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">agent trace over SSE</text>
+<circle cx="62" cy="581" r="2.6" fill="#2F5FD0"/>
+<text x="73" y="586" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#1E3A8A">Analyst:</tspan> risk-sorted</text>
+<text x="73" y="606" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">queue, case review</text>
+<text x="73" y="626" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">with flags, score</text>
+<text x="73" y="646" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">breakdown,</text>
+<text x="73" y="666" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">side-by-side</text>
+<text x="73" y="686" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">document view,</text>
+<text x="73" y="706" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">decision form</text>
+<rect x="45" y="751" width="200" height="181" rx="10" fill="#EAF1FF" stroke="#2F5FD0" stroke-width="1.8" />
+<text x="59" y="775" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#1E3A8A" text-anchor="start">Responsible UX</text>
+<circle cx="62" cy="795" r="2.6" fill="#2F5FD0"/>
+<text x="73" y="800" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">Plain-language UX</text>
+<text x="73" y="820" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">for first-time bank</text>
+<text x="73" y="840" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">customers</text>
+<circle cx="62" cy="858" r="2.6" fill="#2F5FD0"/>
+<text x="73" y="863" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">&quot;A human reviewer</text>
+<text x="73" y="883" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">decides&quot; stated in</text>
+<text x="73" y="903" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">every hand-off</text>
+<rect x="45" y="948" width="200" height="158" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8" stroke-dasharray="7 5" />
+<text x="59" y="972" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#374151" text-anchor="start">Planned</text>
+<circle cx="62" cy="992" r="2.6" fill="#6B7280"/>
+<text x="73" y="997" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">30-Day Activation</text>
+<text x="73" y="1017" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">Coach: post-approval</text>
+<text x="73" y="1037" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">nudges toward first</text>
+<text x="73" y="1057" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">deposit, card and</text>
+<text x="73" y="1077" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">app set-up</text>
+<rect x="310" y="140" width="340" height="1010" rx="16" fill="#FAF7FF" stroke="#7C3AED" stroke-width="1.6" />
+<text x="326" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#4C1D95" text-anchor="start" letter-spacing="1.2">TRUST BOUNDARY</text>
+<rect x="325" y="200" width="310" height="404" rx="10" fill="#F1E9FF" stroke="#7C3AED" stroke-width="1.8" />
+<text x="339" y="224" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#4C1D95" text-anchor="start">API gateway</text>
+<text x="339" y="244" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">FastAPI · main.py ·</text>
+<text x="339" y="261" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">deps.py</text>
+<rect x="598.6" y="208" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="611.8000000000001" y="223" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S5</text>
+<rect x="567.2" y="208" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="580.4000000000001" y="223" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S3</text>
+<rect x="535.8" y="208" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="549.0000000000001" y="223" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S2</text>
+<circle cx="342" cy="278" r="2.6" fill="#7C3AED"/>
+<text x="353" y="283" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">JWT (HS256) + role guard:</tspan> customer</text>
+<text x="353" y="303" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">| analyst; analyst routes closed to</text>
+<text x="353" y="323" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">customers</text>
+<circle cx="342" cy="341" r="2.6" fill="#7C3AED"/>
+<text x="353" y="346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Case-scoped access:</tspan> a customer can</text>
+<text x="353" y="366" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">only load their own case; foreign</text>
+<text x="353" y="386" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">IDs return 404 (IDOR-safe)</text>
+<circle cx="342" cy="404" r="2.6" fill="#7C3AED"/>
+<text x="353" y="409" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Abuse limits:</tspan> 60 req/min/user, text</text>
+<text x="353" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">≤ 2,000 chars, action and</text>
+<text x="353" y="449" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">document-type allow-lists</text>
+<circle cx="342" cy="467" r="2.6" fill="#7C3AED"/>
+<text x="353" y="472" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Upload guard:</tspan> type by magic bytes</text>
+<text x="353" y="492" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">(not name or MIME), ≤ 8 MB, PDFs</text>
+<text x="353" y="512" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">with JavaScript / launch /</text>
+<text x="353" y="532" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">attachments rejected, page cap</text>
+<circle cx="342" cy="550" r="2.6" fill="#7C3AED"/>
+<text x="353" y="555" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">CORS allow-list;</tspan> demo routes</text>
+<text x="353" y="575" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">mounted only when DEMO_MODE</text>
+<circle cx="622" cy="600" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="622" y="605" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="325" y="620" width="310" height="215" rx="10" fill="#F1E9FF" stroke="#7C3AED" stroke-width="1.8" />
+<text x="339" y="644" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#4C1D95" text-anchor="start">API surface</text>
+<text x="339" y="669" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">POST /cases/{id}/chat   (SSE)</text>
+<text x="339" y="689" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">POST /cases/{id}/documents</text>
+<text x="339" y="709" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">GET  /review/queue</text>
+<text x="339" y="729" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">GET  /review/{id}</text>
+<text x="339" y="749" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">GET  /review/{id}/documents/{d}/image</text>
+<text x="339" y="769" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">POST /review/{id}/decide</text>
+<text x="339" y="789" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">GET  /audit/verify  (analyst)</text>
+<text x="339" y="809" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">GET  /health/llm</text>
+<rect x="325" y="851" width="310" height="267" rx="10" fill="#F1E9FF" stroke="#7C3AED" stroke-width="1.8" />
+<text x="339" y="875" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#4C1D95" text-anchor="start">Fail-safe behaviour</text>
+<circle cx="342" cy="895" r="2.6" fill="#7C3AED"/>
+<text x="353" y="900" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Turn fails:</tspan> friendly message,</text>
+<text x="353" y="920" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">progress saved, failure audited</text>
+<circle cx="342" cy="938" r="2.6" fill="#7C3AED"/>
+<text x="353" y="943" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">LLM down or slow:</tspan> timeout then</text>
+<text x="353" y="963" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">rule-based fallback, flow keeps</text>
+<text x="353" y="983" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">working</text>
+<circle cx="342" cy="1001" r="2.6" fill="#7C3AED"/>
+<text x="353" y="1006" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Review pipeline fails:</tspan> case still</text>
+<text x="353" y="1026" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">reaches the analyst queue (analysis</text>
+<text x="353" y="1046" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">pending)</text>
+<circle cx="342" cy="1064" r="2.6" fill="#7C3AED"/>
+<text x="353" y="1069" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#111827"><tspan font-weight="700" fill="#4C1D95">Double submit:</tspan> persist is</text>
+<text x="353" y="1089" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#111827" text-anchor="start">idempotent</text>
+<path d="M245,470 L325,470" fill="none" stroke="#2F5FD0" stroke-width="2.6" marker-end="url(#m2F5FD0)" stroke-linejoin="round"/>
+<text x="285" y="458" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">HTTPS</text>
+<text x="285" y="497" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">JWT·SSE</text>
+<rect x="700" y="140" width="1080" height="1010" rx="16" fill="#FFFCF3" stroke="#D97706" stroke-width="1.6" />
+<text x="716" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#7C2D12" text-anchor="start" letter-spacing="1.2">AGENTIC ORCHESTRATION  ·  LangGraph</text>
+<rect x="714" y="182" width="1052" height="473" rx="12" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8" />
+<text x="730" y="208" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="800" fill="#7C2D12" text-anchor="start">Chat graph</text>
+<text x="840" y="208" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5563" text-anchor="start">runs on every customer turn · state rebuilt from the database (source of truth) · retry policy on LLM nodes</text>
+<rect x="725" y="460" width="130" height="80" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="735" y="482" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">route_entry</text>
+<text x="735" y="500.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#111827" text-anchor="start">upload → document</text>
+<rect x="910" y="455" width="220" height="90" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="920" y="477" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">classify_intent</text>
+<text x="920" y="495.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Actions and guardrails first;</text>
+<text x="920" y="512.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">LLM only for free text</text>
+<rect x="1097.6" y="444" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="1110.8" y="459" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S1</text>
+<circle cx="926" cy="545" r="10" fill="#0D9488"/>
+<text x="926" y="550" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+<circle cx="950" cy="545" r="10" fill="#0D9488"/>
+<text x="950" y="550" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<circle cx="906" cy="459" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="906" y="464" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<rect x="1240" y="245" width="230" height="80" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="1250" y="267" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">document</text>
+<text x="1250" y="285.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">Quality gate → text/OCR → parse</text>
+<text x="1250" y="301.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#111827" text-anchor="start">→ grounded fallback → encrypt</text>
+<rect x="1437.6" y="234" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="1450.8" y="249" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G3</text>
+<rect x="1406.2" y="234" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="1419.3999999999999" y="249" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G2</text>
+<circle cx="1256" cy="325" r="10" fill="#0D9488"/>
+<text x="1256" y="330" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">D</text>
+<circle cx="1280" cy="325" r="10" fill="#0D9488"/>
+<text x="1280" y="330" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<circle cx="1236" cy="249" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1236" y="254" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="1240" y="345" width="230" height="80" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="1250" y="367" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">guide</text>
+<text x="1250" y="385.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Cite-or-refuse answers from</text>
+<text x="1250" y="402.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">retrieved passages only</text>
+<rect x="1437.6" y="334" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="1450.8" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H2</text>
+<rect x="1406.2" y="334" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="1419.3999999999999" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G1</text>
+<circle cx="1256" cy="425" r="10" fill="#0D9488"/>
+<text x="1256" y="430" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+<circle cx="1280" cy="425" r="10" fill="#0D9488"/>
+<text x="1280" y="430" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">B</text>
+<circle cx="1304" cy="425" r="10" fill="#0D9488"/>
+<text x="1304" y="430" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<circle cx="1236" cy="349" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1236" y="354" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="1240" y="450" width="230" height="100" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="1250" y="472" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">intake</text>
+<text x="1250" y="490.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Form fields; customer confirms</text>
+<text x="1250" y="507.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">low-confidence or conflicting</text>
+<text x="1250" y="524.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">values; each answer audited</text>
+<circle cx="1256" cy="550" r="10" fill="#0D9488"/>
+<text x="1256" y="555" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<circle cx="1236" cy="454" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1236" y="459" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="1240" y="575" width="230" height="66" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="1250" y="597" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">submit_gate</text>
+<text x="1250" y="615.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Completeness check</text>
+<circle cx="1236" cy="579" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1236" y="584" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<rect x="1570" y="480" width="190" height="90" rx="10" fill="#EAF1FF" stroke="#2F5FD0" stroke-width="1.8" />
+<text x="1580" y="502" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#1E3A8A" text-anchor="start">END</text>
+<text x="1580" y="520.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Reply + node trace</text>
+<text x="1580" y="537.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">streamed (SSE)</text>
+<rect x="1570" y="575" width="190" height="66" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="1580" y="597" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">persist</text>
+<text x="1580" y="615.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Idempotent → under_review</text>
+<circle cx="1566" cy="579" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1566" y="584" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<path d="M855,500 L910,500" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<path d="M790,465 L790,285 L1240,285" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<text x="1010" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">upload attached</text>
+<path d="M1130,500 L1185,500" fill="none" stroke="#7C2D12" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M1185,385 L1185,605" fill="none" stroke="#7C2D12" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M1185,385 L1240,385" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<path d="M1185,500 L1240,500" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<path d="M1185,605 L1240,605" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<text x="1178" y="380" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#4B5563" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">product_qa · out_of_scope</text>
+<text x="1158" y="517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">intake</text>
+<text x="1178" y="602" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#4B5563" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">submit</text>
+<path d="M1470,285 L1510,285 L1510,475 L1470,475" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<path d="M1470,385 L1510,385" fill="none" stroke="#D97706" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M1470,525 L1570,525" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<path d="M1355,575 L1355,550" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<text x="1362" y="568" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#4B5563" text-anchor="start" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">incomplete</text>
+<path d="M1470,608 L1570,608" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#mD97706)" stroke-linejoin="round"/>
+<text x="1520" y="600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">complete</text>
+<rect x="714" y="700" width="1052" height="300" rx="12" fill="#FFFFFF" stroke="#E11D48" stroke-width="1.8" />
+<text x="890" y="726" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="800" fill="#881337" text-anchor="start">Review graph</text>
+<text x="1030" y="726" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5563" text-anchor="start">once per submission · deterministic steps, one LLM step · checkpointed pause for a human</text>
+<rect x="725" y="748" width="150" height="152" rx="10" fill="#FFE8EC" stroke="#E11D48" stroke-width="1.8" />
+<text x="735" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#881337" text-anchor="start">validation</text>
+<text x="735" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Cross-document</text>
+<text x="735" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">name, DOB, address</text>
+<text x="735" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">match; expiry; age</text>
+<text x="735" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">≥ 18; Aadhaar</text>
+<text x="735" y="856.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">checksum; watchlist</text>
+<text x="735" y="873.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">lead</text>
+<rect x="842.6" y="737" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="855.8000000000001" y="752" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G4</text>
+<circle cx="741" cy="900" r="10" fill="#16A34A"/>
+<text x="741" y="905" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">E</text>
+<circle cx="721" cy="752" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="721" y="757" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<rect x="900" y="748" width="150" height="152" rx="10" fill="#FFE8EC" stroke="#E11D48" stroke-width="1.8" />
+<text x="910" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#881337" text-anchor="start">risk_scoring</text>
+<text x="910" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Score = 100 −</text>
+<text x="910" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">penalties from</text>
+<text x="910" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">versioned rules.</text>
+<text x="910" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">clean ≥ 85, review</text>
+<text x="910" y="856.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">60–84, attention &lt;</text>
+<text x="910" y="873.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">60</text>
+<rect x="1017.6" y="737" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="1030.8" y="752" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<circle cx="916" cy="900" r="10" fill="#16A34A"/>
+<text x="916" y="905" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">E</text>
+<rect x="1075" y="748" width="150" height="152" rx="10" fill="#FFE8EC" stroke="#E11D48" stroke-width="1.8" />
+<text x="1085" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#881337" text-anchor="start">readiness</text>
+<text x="1085" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">LLM drafts a ≤</text>
+<text x="1085" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">120-word summary of</text>
+<text x="1085" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">the flags only;</text>
+<text x="1085" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">PII-redacted,</text>
+<text x="1085" y="856.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">evidence stripped</text>
+<rect x="1192.6" y="737" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="1205.8" y="752" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S4</text>
+<circle cx="1091" cy="900" r="10" fill="#0D9488"/>
+<text x="1091" y="905" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<rect x="1250" y="748" width="150" height="152" rx="10" fill="#FFD9A8" stroke="#C2410C" stroke-width="3" />
+<text x="1260" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">await_decision</text>
+<text x="1260" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">interrupt(): graph</text>
+<text x="1260" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">pauses, state</text>
+<text x="1260" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">persisted. No AI</text>
+<text x="1260" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">step can approve or</text>
+<text x="1260" y="856.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">reject</text>
+<rect x="1367.6" y="737" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="1380.8" y="752" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H1</text>
+<circle cx="1246" cy="752" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1246" y="757" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<rect x="1425" y="748" width="150" height="152" rx="10" fill="#FFE8EC" stroke="#E11D48" stroke-width="1.8" />
+<text x="1435" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#881337" text-anchor="start">apply_decision</text>
+<text x="1435" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">Resumed by the</text>
+<text x="1435" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">analyst with</text>
+<text x="1435" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">reviewer_id, action</text>
+<text x="1435" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">and note</text>
+<rect x="1600" y="748" width="150" height="152" rx="10" fill="#FFD9A8" stroke="#C2410C" stroke-width="3" />
+<text x="1610" y="770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#7C2D12" text-anchor="start">decide_case()</text>
+<text x="1610" y="788.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">The only code path</text>
+<text x="1610" y="805.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">that writes</text>
+<text x="1610" y="822.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">approved / rejected</text>
+<text x="1610" y="839.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#111827" text-anchor="start">/ info_requested</text>
+<rect x="1717.6" y="737" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="1730.8" y="752" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H1</text>
+<circle cx="1596" cy="752" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1596" y="757" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">9</text>
+<path d="M875,818 L900,818" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<path d="M1050,818 L1075,818" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<path d="M1225,818 L1250,818" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<path d="M1400,818 L1425,818" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<path d="M1575,818 L1600,818" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<rect x="725" y="925" width="1025" height="66" rx="10" fill="#FFE8EC" stroke="#E11D48" stroke-width="1.4" />
+<text x="739" y="949" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#881337" text-anchor="start"></text>
+<text x="740" y="947" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#881337" text-anchor="start">Analyst API</text>
+<text x="845" y="947" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">queue sorted by lowest score · case detail with provenance · server-rendered document pages (never the raw PDF)</text>
+<text x="740" y="972" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Reject or request-info needs a written note (≥ 5 chars) · info_requested reopens the case for re-upload and a new submission</text>
+<path d="M1325,925 L1325,900" fill="none" stroke="#E11D48" stroke-width="2.4" marker-end="url(#mE11D48)" marker-start="url(#mE11D48s)" stroke-linejoin="round"/>
+<text x="1340" y="914" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#4B5563" text-anchor="start" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">resume(decision)</text>
+<path d="M1665,641 L1665,678 L800,678 L800,748" fill="none" stroke="#E11D48" stroke-width="2.6" marker-end="url(#mE11D48)" stroke-linejoin="round"/>
+<text x="1230" y="673" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">start_review(case_id, submission_no)</text>
+<path d="M635,420 L714,420" fill="none" stroke="#7C3AED" stroke-width="2.6" marker-end="url(#m7C3AED)" stroke-linejoin="round"/>
+<text x="668" y="410" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">run_turn</text>
+<path d="M635,958 L725,958" fill="none" stroke="#7C3AED" stroke-width="2.6" marker-end="url(#m7C3AED)" stroke-linejoin="round"/>
+<text x="668" y="948" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">decide</text>
+<rect x="714" y="1008" width="1052" height="140" rx="10" fill="#FFF4D6" stroke="#D97706" stroke-width="1.8" />
+<text x="728" y="1032" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7C2D12" text-anchor="start">Cost and performance levers</text>
+<rect x="1729.6" y="1016" width="26.4" height="21" rx="5" fill="#C2410C"/>
+<text x="1742.8" y="1031" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">C1</text>
+<circle cx="731" cy="1051" r="2.6" fill="#D97706"/>
+<text x="742" y="1056" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#7C2D12">Deterministic-first:</tspan> structured actions and regex guardrails handle many turns with zero tokens; BM25 retrieval needs no embeddings.</text>
+<circle cx="731" cy="1073" r="2.6" fill="#D97706"/>
+<text x="742" y="1078" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#7C2D12">Narrow LLM use:</tspan> 5 short prompts, outputs capped (1,024 tokens, ≤ 120-word summary), temperature 0, optional cheaper router model.</text>
+<circle cx="731" cy="1095" r="2.6" fill="#D97706"/>
+<text x="742" y="1100" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#7C2D12">Skip work:</tspan> text PDFs bypass OCR; OCR is local (no vision tokens); LLM fallback only for fields the parser missed; /api/health/llm shows</text>
+<text x="742" y="1119" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">tokens per prompt.</text>
+<rect x="1830" y="140" width="500" height="1010" rx="16" fill="#F4FCFB" stroke="#0D9488" stroke-width="1.6" />
+<text x="1846" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#134E4A" text-anchor="start" letter-spacing="1.2">AI &amp; DECISION SERVICES</text>
+<rect x="1845" y="200" width="470" height="137" rx="10" fill="#DDF7F3" stroke="#0D9488" stroke-width="1.8" />
+<text x="1859" y="224" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">Deterministic guardrails (run before</text>
+<text x="1859" y="244" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">any model)</text>
+<rect x="2278.6" y="208" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="2291.7999999999997" y="223" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H2</text>
+<rect x="2247.2" y="208" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="2260.3999999999996" y="223" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S1</text>
+<circle cx="1862" cy="263" r="2.6" fill="#0D9488"/>
+<text x="1873" y="268" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Regex classifiers for investment advice, approval</text>
+<text x="1873" y="287" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">prediction and prompt injection return fixed refusals.</text>
+<circle cx="1862" cy="304" r="2.6" fill="#0D9488"/>
+<text x="1873" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Regression-tested with 6 injection phrasings.</text>
+<circle cx="1845" cy="220" r="14" fill="#0D9488" stroke="#fff" stroke-width="2.5"/>
+<text x="1845" y="225.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">A</text>
+<rect x="1845" y="345" width="470" height="159" rx="10" fill="#DDF7F3" stroke="#0D9488" stroke-width="1.8" />
+<text x="1859" y="369" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">Grounded Guide: BM25 retrieval, no</text>
+<text x="1859" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">embeddings</text>
+<rect x="2278.6" y="353" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="2291.7999999999997" y="368" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G1</text>
+<circle cx="1862" cy="408" r="2.6" fill="#0D9488"/>
+<text x="1873" y="413" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">8 curated product docs (KYC, FATCA, nominee, privacy…).</text>
+<circle cx="1862" cy="430" r="2.6" fill="#0D9488"/>
+<text x="1873" y="435" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Answer only if score ≥ 1.2 and ≥ 50% query coverage; else</text>
+<text x="1873" y="454" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">&quot;I don't have that&quot; and hand to an advisor.</text>
+<circle cx="1862" cy="471" r="2.6" fill="#0D9488"/>
+<text x="1873" y="476" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Model must cite passage ids; uncited answers fall back.</text>
+<circle cx="1845" cy="365" r="14" fill="#0D9488" stroke="#fff" stroke-width="2.5"/>
+<text x="1845" y="370.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">B</text>
+<rect x="1845" y="512" width="470" height="237" rx="10" fill="#DDF7F3" stroke="#0D9488" stroke-width="1.8" />
+<text x="1859" y="536" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">LLM service layer</text>
+<rect x="2278.6" y="520" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2291.7999999999997" y="535" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O4</text>
+<rect x="2247.2" y="520" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2260.3999999999996" y="535" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<rect x="2215.8" y="520" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="2228.9999999999995" y="535" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S2</text>
+<rect x="2184.4" y="520" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="2197.5999999999995" y="535" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S1</text>
+<circle cx="1862" cy="555" r="2.6" fill="#0D9488"/>
+<text x="1873" y="560" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#134E4A">ResilientLLM:</tspan> 45 s timeout, any failure falls back to the</text>
+<text x="1873" y="579" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">deterministic rule-based service.</text>
+<circle cx="1862" cy="596" r="2.6" fill="#0D9488"/>
+<text x="1873" y="601" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#134E4A">Gemini Flash via AI Passport Gateway,</tspan> temperature 0,</text>
+<text x="1873" y="620" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">JSON-schema-validated output, optional cheaper router</text>
+<text x="1873" y="639" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">model.</text>
+<circle cx="1862" cy="656" r="2.6" fill="#0D9488"/>
+<text x="1873" y="661" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#134E4A">5 versioned prompts;</tspan> user text and OCR text wrapped as</text>
+<text x="1873" y="680" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">DATA. The model has no tools, no DB access, cannot set</text>
+<text x="1873" y="699" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">status.</text>
+<circle cx="1862" cy="716" r="2.6" fill="#0D9488"/>
+<text x="1873" y="721" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Per-prompt token, call, failure and fallback counters.</text>
+<circle cx="1845" cy="532" r="14" fill="#0D9488" stroke="#fff" stroke-width="2.5"/>
+<text x="1845" y="537.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">C</text>
+<rect x="1845" y="757" width="470" height="177" rx="10" fill="#DDF7F3" stroke="#0D9488" stroke-width="1.8" />
+<text x="1859" y="781" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#134E4A" text-anchor="start">Document intelligence</text>
+<rect x="2278.6" y="765" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="2291.7999999999997" y="780" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S3</text>
+<rect x="2247.2" y="765" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="2260.3999999999996" y="780" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G3</text>
+<rect x="2215.8" y="765" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="2228.9999999999995" y="780" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G2</text>
+<circle cx="1862" cy="800" r="2.6" fill="#0D9488"/>
+<text x="1873" y="805" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Quality gate (blur, resolution) → text-layer PDF read</text>
+<text x="1873" y="824" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">directly, or PaddleOCR; scanned PDFs rasterised, ≤ 5 pages.</text>
+<circle cx="1862" cy="841" r="2.6" fill="#0D9488"/>
+<text x="1873" y="846" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">PAN, Aadhaar, driving-licence parsers; per-field confidence</text>
+<text x="1873" y="865" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">+ source (pdf_text · ocr · llm_fallback · checksum_failed).</text>
+<circle cx="1862" cy="882" r="2.6" fill="#0D9488"/>
+<text x="1873" y="887" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">LLM fills only missing fields, and the value must literally</text>
+<text x="1873" y="906" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">appear in the OCR text.</text>
+<circle cx="1845" cy="777" r="14" fill="#0D9488" stroke="#fff" stroke-width="2.5"/>
+<text x="1845" y="782.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">D</text>
+<rect x="1845" y="942" width="470" height="197" rx="10" fill="#E1F8E7" stroke="#16A34A" stroke-width="1.8" />
+<text x="1859" y="966" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#14532D" text-anchor="start">Rules engine  (rules.yaml v1 +</text>
+<text x="1859" y="986" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#14532D" text-anchor="start">SHA-256)</text>
+<rect x="2278.6" y="950" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2291.7999999999997" y="965" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<rect x="2247.2" y="950" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="2260.3999999999996" y="965" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H3</text>
+<rect x="2215.8" y="950" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="2228.9999999999995" y="965" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G4</text>
+<circle cx="1862" cy="1005" r="2.6" fill="#16A34A"/>
+<text x="1873" y="1010" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">12 flags with severity and penalty; thresholds in config,</text>
+<text x="1873" y="1029" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">not code. No LLM decides a flag or a score.</text>
+<circle cx="1862" cy="1046" r="2.6" fill="#16A34A"/>
+<text x="1873" y="1051" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Fuzzy watchlist screen (≥ 90) surfaces a lead for a human,</text>
+<text x="1873" y="1070" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">never an auto-reject.</text>
+<circle cx="1862" cy="1087" r="2.6" fill="#16A34A"/>
+<text x="1873" y="1092" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Customer-confirmed conflicts carry half penalty and are</text>
+<text x="1873" y="1111" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">labelled.</text>
+<circle cx="1845" cy="962" r="14" fill="#16A34A" stroke="#fff" stroke-width="2.5"/>
+<text x="1845" y="967.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">E</text>
+<path d="M1766,410 L1845,410" fill="none" stroke="#0D9488" stroke-width="2.6" stroke-dasharray="6 4" marker-end="url(#m0D9488)" stroke-linejoin="round"/>
+<text x="1805" y="400" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">invokes</text>
+<path d="M1766,870 L1845,870" fill="none" stroke="#0D9488" stroke-width="2.6" stroke-dasharray="6 4" marker-end="url(#m0D9488)" stroke-linejoin="round"/>
+<text x="1805" y="860" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#4B5563" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">invokes</text>
+<text x="1805" y="428" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#134E4A" text-anchor="middle">A–D</text>
+<text x="1805" y="888" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#134E4A" text-anchor="middle">C · E</text>
+<rect x="2380" y="140" width="390" height="1010" rx="16" fill="#F8F9FA" stroke="#6B7280" stroke-width="1.6" />
+<text x="2396" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2937" text-anchor="start" letter-spacing="1.2">EXTERNAL &amp; MODEL ENDPOINTS</text>
+<rect x="2395" y="512" width="360" height="237" rx="10" fill="#F1F3F5" stroke="#6B7280" stroke-width="1.8" />
+<text x="2409" y="536" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2937" text-anchor="start">Capgemini AI Passport Gateway</text>
+<text x="2409" y="555" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">Generative Engine</text>
+<circle cx="2412" cy="572" r="2.6" fill="#6B7280"/>
+<text x="2423" y="577" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#1F2937">OpenAI-compatible endpoint;</tspan> US production,</text>
+<text x="2423" y="596" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">EU data-residency endpoint available.</text>
+<circle cx="2412" cy="613" r="2.6" fill="#6B7280"/>
+<text x="2423" y="618" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#1F2937">Serves Gemini Flash;</tspan> only for routing, field</text>
+<text x="2423" y="637" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">parsing, grounded Q&amp;A, extraction fallback</text>
+<text x="2423" y="656" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">and review summary.</text>
+<circle cx="2412" cy="673" r="2.6" fill="#6B7280"/>
+<text x="2423" y="678" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#1F2937">Image of an ID is never sent;</tspan> only text.</text>
+<rect x="2395" y="757" width="360" height="177" rx="10" fill="#F1F3F5" stroke="#6B7280" stroke-width="1.8" />
+<text x="2409" y="781" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2937" text-anchor="start">OCR engine</text>
+<text x="2409" y="800" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">PaddleOCR · pypdfium2 · pypdf</text>
+<circle cx="2412" cy="817" r="2.6" fill="#6B7280"/>
+<text x="2423" y="822" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#1F2937">PaddleOCR runs in-process,</tspan> inside the</text>
+<text x="2423" y="841" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">service boundary.</text>
+<circle cx="2412" cy="858" r="2.6" fill="#6B7280"/>
+<text x="2423" y="863" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#1F2937">Fixture engine</tspan> gives deterministic offline</text>
+<text x="2423" y="882" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">demos and tests.</text>
+<path d="M2315,630.5 L2395,630.5" fill="none" stroke="#6B7280" stroke-width="2.6" marker-end="url(#m6B7280)" stroke-linejoin="round"/>
+<path d="M2315,845.5 L2395,845.5" fill="none" stroke="#6B7280" stroke-width="2.6" marker-end="url(#m6B7280)" stroke-linejoin="round"/>
+<rect x="2395" y="200" width="360" height="300" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8" stroke-dasharray="7 5" />
+<text x="2409" y="224" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#374151" text-anchor="start">Planned integrations</text>
+<circle cx="2412" cy="243" r="2.6" fill="#6B7280"/>
+<text x="2423" y="248" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Licensed sanctions / PEP screening API</text>
+<text x="2423" y="267" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">(replaces the synthetic watchlist)</text>
+<circle cx="2412" cy="284" r="2.6" fill="#6B7280"/>
+<text x="2423" y="289" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Core banking: account creation after</text>
+<text x="2423" y="308" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">approval</text>
+<circle cx="2412" cy="325" r="2.6" fill="#6B7280"/>
+<text x="2423" y="330" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">IdP / SSO (OIDC) for analysts; KMS or Key</text>
+<text x="2423" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Vault for secrets</text>
+<rect x="2395" y="946" width="360" height="196" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8" stroke-dasharray="7 5" />
+<text x="2409" y="970" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#374151" text-anchor="start">Planned hardening</text>
+<circle cx="2412" cy="989" r="2.6" fill="#6B7280"/>
+<text x="2423" y="994" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">SIEM export of the audit stream</text>
+<circle cx="2412" cy="1011" r="2.6" fill="#6B7280"/>
+<text x="2423" y="1016" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">On-prem or VPC-hosted model for OCR-text</text>
+<text x="2423" y="1035" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">fallback</text>
+<rect x="30" y="1172" width="2740" height="262" rx="16" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.6" />
+<text x="46" y="1200" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#0F172A" text-anchor="start" letter-spacing="1.2">END-TO-END DATA FLOW</text>
+<rect x="46.0" y="1216" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="70.0" cy="1242" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="70.0" y="1247" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="94.0" y="1238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Customer chats or uploads Aadhaar, PAN and driving licence in</text>
+<text x="94.0" y="1257.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">the React SPA; replies stream back over SSE.</text>
+<rect x="590.0" y="1216" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="614.0" cy="1242" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="614.0" y="1247" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="638.0" y="1238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Gateway verifies the JWT role, scopes the case to its owner,</text>
+<text x="638.0" y="1257.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">rate-limits, and content-checks the upload.</text>
+<rect x="1134.0" y="1216" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="1158.0" cy="1242" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1158.0" y="1247" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="1182.0" y="1238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Chat graph rebuilds state from the DB. Guardrails and the</text>
+<text x="1182.0" y="1257.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">router pick: Q&amp;A, intake, upload or submit.</text>
+<rect x="1678.0" y="1216" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="1702.0" cy="1242" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1702.0" y="1247" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="1726.0" y="1238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Guide answers only from retrieved passages. Document agent:</text>
+<text x="1726.0" y="1257.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">quality gate, text or OCR, parse, grounded fallback, encrypt,</text>
+<text x="1726.0" y="1277.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">save.</text>
+<rect x="2222.0" y="1216" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="2246.0" cy="1242" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="2246.0" y="1247" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="2270.0" y="1238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Intake asks the customer to confirm conflicting or</text>
+<text x="2270.0" y="1257.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">low-confidence values; every answer is audited.</text>
+<rect x="46.0" y="1324" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="70.0" cy="1350" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="70.0" y="1355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<text x="94.0" y="1346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Submit gate blocks incomplete cases. Persist moves the case to</text>
+<text x="94.0" y="1365.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">under_review exactly once and starts the review graph.</text>
+<rect x="590.0" y="1324" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="614.0" cy="1350" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="614.0" y="1355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<text x="638.0" y="1346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Review graph validates across documents, screens the watchlist,</text>
+<text x="638.0" y="1365.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">scores risk from versioned rules, drafts a redacted summary.</text>
+<rect x="1134.0" y="1324" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="1158.0" cy="1350" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1158.0" y="1355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<text x="1182.0" y="1346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Graph interrupts. The case waits in the analyst queue, lowest</text>
+<text x="1182.0" y="1365.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">score first. Nothing automated can approve or reject.</text>
+<rect x="1678.0" y="1324" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="1702.0" cy="1350" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="1702.0" y="1355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">9</text>
+<text x="1726.0" y="1346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Analyst inspects rendered pages, extracted fields and evidence,</text>
+<text x="1726.0" y="1365.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">then decides. decide_case() alone writes the final status.</text>
+<rect x="2222.0" y="1324" width="532.0" height="98" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<circle cx="2246.0" cy="1350" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="2246.0" y="1355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">10</text>
+<text x="2270.0" y="1346" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">Outcome is posted to the customer chat. Every step above is</text>
+<text x="2270.0" y="1365.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#111827" text-anchor="start">appended to the hash-chained audit log.</text>
+<rect x="30" y="1452" width="2740" height="232" rx="16" fill="#F6F7FF" stroke="#4F46E5" stroke-width="1.6" />
+<text x="46" y="1480" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#312E81" text-anchor="start" letter-spacing="1.2">DATA, SECURITY &amp; AUDIT PLANE  ·  cross-cutting</text>
+<rect x="46.0" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="60.0" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">Relational store</text>
+<text x="60.0" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">SQLAlchemy async · models.py</text>
+<circle cx="63.0" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="74.0" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">users, cases, documents, messages, review_runs,</text>
+<text x="74.0" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">decisions, audit_log.</text>
+<circle cx="63.0" cy="1595" r="2.6" fill="#4F46E5"/>
+<text x="74.0" y="1600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">SQLite for zero-setup dev; PostgreSQL by changing</text>
+<text x="74.0" y="1619" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">DATABASE_URL.</text>
+<rect x="499.3333333333333" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="513.3333333333333" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">Encrypted file store</text>
+<text x="513.3333333333333" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">storage.py · crypto.py</text>
+<rect x="904.3" y="1502" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="917.4666666666667" y="1517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S4</text>
+<circle cx="516.3333333333333" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="527.3333333333333" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Uploads encrypted with Fernet before touching disk;</text>
+<text x="527.3333333333333" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">server-generated UUID keys, client filenames never</text>
+<text x="527.3333333333333" y="1597" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">used.</text>
+<circle cx="516.3333333333333" cy="1614" r="2.6" fill="#4F46E5"/>
+<text x="527.3333333333333" y="1619" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Plaintext copy exists only during OCR, then deleted.</text>
+<rect x="952.6666666666666" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="966.6666666666666" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">Encrypted PII + masking</text>
+<text x="966.6666666666666" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">masking.py</text>
+<rect x="1357.6" y="1502" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="1370.8" y="1517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S4</text>
+<circle cx="969.6666666666666" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="980.6666666666666" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Full extracted values and raw text live only in</text>
+<text x="980.6666666666666" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Fernet-encrypted fields.</text>
+<circle cx="969.6666666666666" cy="1595" r="2.6" fill="#4F46E5"/>
+<text x="980.6666666666666" y="1600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">UI, graph state and logs get masked values (XXXX XXXX</text>
+<text x="980.6666666666666" y="1619" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">1234, ABCDE****F).</text>
+<rect x="1406.0" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="1420.0" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">LangGraph checkpointer</text>
+<text x="1420.0" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">AsyncSqliteSaver | AsyncPostgresSaver</text>
+<rect x="1810.9" y="1502" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="1824.1333333333332" y="1517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H1</text>
+<circle cx="1423.0" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="1434.0" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Durable interrupt and resume per thread (case :</text>
+<text x="1434.0" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">submission).</text>
+<circle cx="1423.0" cy="1595" r="2.6" fill="#4F46E5"/>
+<text x="1434.0" y="1600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">A case waits days for an analyst and survives restarts.</text>
+<rect x="1859.3333333333333" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="1873.3333333333333" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">Hash-chained audit log</text>
+<text x="1873.3333333333333" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">audit.py</text>
+<rect x="2264.3" y="1502" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="2277.4666666666662" y="1517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H4</text>
+<circle cx="1876.3333333333333" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="1887.3333333333333" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Append-only; each row commits to the previous SHA-256.</text>
+<text x="1887.3333333333333" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Edits or deletions break the chain.</text>
+<circle cx="1876.3333333333333" cy="1595" r="2.6" fill="#4F46E5"/>
+<text x="1887.3333333333333" y="1600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Actor is user, agent or system. Verified on demand at</text>
+<text x="1887.3333333333333" y="1619" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">/api/audit/verify.</text>
+<rect x="2312.6666666666665" y="1494" width="441.3333333333333" height="176" rx="10" fill="#E8EAFD" stroke="#4F46E5" stroke-width="1.8" />
+<text x="2326.6666666666665" y="1518" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#312E81" text-anchor="start">Secrets and config</text>
+<text x="2326.6666666666665" y="1537" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B5563" text-anchor="start">config.py</text>
+<rect x="2717.6" y="1502" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="2730.7999999999997" y="1517" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S2</text>
+<circle cx="2329.6666666666665" cy="1554" r="2.6" fill="#4F46E5"/>
+<text x="2340.6666666666665" y="1559" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">JWT_SECRET and FERNET_KEY mandatory outside dev;</text>
+<text x="2340.6666666666665" y="1578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">settings are environment-driven.</text>
+<circle cx="2329.6666666666665" cy="1595" r="2.6" fill="#4F46E5"/>
+<text x="2340.6666666666665" y="1600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Docker Compose packaging.</text>
+<rect x="30" y="1702" width="2740" height="306" rx="16" fill="#FEF7FF" stroke="#C026D3" stroke-width="1.6" />
+<text x="46" y="1730" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#701A75" text-anchor="start" letter-spacing="1.2">RESPONSIBLE AI  ·  LLMOPS  ·  EVALUATION DISCIPLINE</text>
+<rect x="46" y="1744" width="900" height="254" rx="10" fill="#FFFFFF" stroke="#C026D3" stroke-width="1.8" />
+<text x="60" y="1770" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#701A75" text-anchor="start">AI risk register: risk → control</text>
+<text x="60" y="1798" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">Prompt injection via chat or</text>
+<text x="60" y="1815" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">document text</text>
+<text x="326" y="1798" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Regex guardrails pre-LLM, DATA-tagged inputs, schema-checked output, LLM cannot</text>
+<text x="326" y="1815" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">write status</text>
+<rect x="907.6" y="1786" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="920.8000000000001" y="1801" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S1</text>
+<line x1="58" y1="1824" x2="934" y2="1824" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1839" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">Hallucinated product answers</text>
+<text x="326" y="1839" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Cite-or-refuse over retrieved passages; unsupported answers fall back or decline</text>
+<rect x="907.6" y="1827" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="920.8000000000001" y="1842" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G1</text>
+<line x1="58" y1="1848" x2="934" y2="1848" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1863" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">OCR misread or forged field</text>
+<text x="326" y="1863" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Per-field confidence, checksum, cross-document rules, customer confirmation,</text>
+<text x="326" y="1880" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">analyst sees rendered page</text>
+<rect x="907.6" y="1851" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="920.8000000000001" y="1866" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G2</text>
+<line x1="58" y1="1889" x2="934" y2="1889" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1904" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">Automated adverse decision</text>
+<text x="326" y="1904" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">interrupt() + decide_case() only; written note required to reject or request info</text>
+<rect x="907.6" y="1892" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="920.8000000000001" y="1907" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H1</text>
+<line x1="58" y1="1913" x2="934" y2="1913" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1928" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">False watchlist match</text>
+<text x="326" y="1928" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Surfaced as a lead with similarity and DOB context; never auto-rejects</text>
+<rect x="907.6" y="1916" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="920.8000000000001" y="1931" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H3</text>
+<line x1="58" y1="1937" x2="934" y2="1937" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1952" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">PII leakage</text>
+<text x="326" y="1952" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Encryption at rest, masking, redaction, no-store headers, role and case scoping</text>
+<rect x="907.6" y="1940" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="920.8000000000001" y="1955" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S4</text>
+<line x1="58" y1="1961" x2="934" y2="1961" stroke="#F0D5F5" stroke-width="1"/>
+<text x="60" y="1976" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#111827" text-anchor="start">Model outage or drift</text>
+<text x="326" y="1976" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Timeout and rule-based fallback; versioned prompts and rules; usage counters</text>
+<rect x="907.6" y="1964" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="920.8000000000001" y="1979" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<line x1="58" y1="1985" x2="934" y2="1985" stroke="#F0D5F5" stroke-width="1"/>
+<rect x="960" y="1744" width="640" height="254" rx="10" fill="#FBE9FF" stroke="#C026D3" stroke-width="1.8" />
+<text x="974" y="1768" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#701A75" text-anchor="start">Test and evaluation discipline</text>
+<rect x="1563.6" y="1752" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="1576.8" y="1767" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O3</text>
+<rect x="1532.2" y="1752" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="1545.3999999999999" y="1767" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O2</text>
+<circle cx="977" cy="1787.5" r="2.6" fill="#C026D3"/>
+<text x="988" y="1792.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">79 automated test functions:</tspan> unit, golden-path integration, PDF flow, security.</text>
+<circle cx="977" cy="1809.5" r="2.6" fill="#C026D3"/>
+<text x="988" y="1814.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Prompt-injection regression:</tspan> 6 attack phrasings plus injected text inside</text>
+<text x="988" y="1833.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">documents; case must stay in draft.</text>
+<circle cx="977" cy="1850.5" r="2.6" fill="#C026D3"/>
+<text x="988" y="1855.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Structural decision-boundary test:</tspan> fails the build if any module other than</text>
+<text x="988" y="1874.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">decide_case() writes a final status.</text>
+<circle cx="977" cy="1891.5" r="2.6" fill="#C026D3"/>
+<text x="988" y="1896.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Synthetic test set:</tspan> 6 scenarios (clean, mismatch, expired, blurry, injection,</text>
+<text x="988" y="1915.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">watchlist) in image, scanned-PDF and text-PDF form.</text>
+<circle cx="977" cy="1932.5" r="2.6" fill="#C026D3"/>
+<text x="988" y="1937.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Playwright E2E:</tspan> customer → analyst → approval golden path. Deterministic OCR</text>
+<text x="988" y="1956.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">fixtures keep CI stable.</text>
+<rect x="1614" y="1744" width="536" height="254" rx="10" fill="#FBE9FF" stroke="#C026D3" stroke-width="1.8" />
+<text x="1628" y="1768" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#701A75" text-anchor="start">Traceability and monitoring</text>
+<rect x="2113.6" y="1752" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2126.7999999999997" y="1767" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O4</text>
+<rect x="2082.2" y="1752" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2095.3999999999996" y="1767" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<circle cx="1631" cy="1787.5" r="2.6" fill="#C026D3"/>
+<text x="1642" y="1792.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Provenance per review run:</tspan> rules version + SHA-256, summariser model,</text>
+<text x="1642" y="1811.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">prompt versions stored with every score.</text>
+<circle cx="1631" cy="1828.5" r="2.6" fill="#C026D3"/>
+<text x="1642" y="1833.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Prompt files carry a version header;</tspan> rules.yaml is hashed. Any</text>
+<text x="1642" y="1852.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">outcome is reproducible against the exact rules and prompts.</text>
+<circle cx="1631" cy="1869.5" r="2.6" fill="#C026D3"/>
+<text x="1642" y="1874.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Runtime telemetry:</tspan> /api/health/llm reports calls by prompt, tokens</text>
+<text x="1642" y="1893.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">in/out, failures, fallbacks to rules.</text>
+<circle cx="1631" cy="1910.5" r="2.6" fill="#C026D3"/>
+<text x="1642" y="1915.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#111827"><tspan font-weight="700" fill="#701A75">Node trace</tspan> of every turn is persisted with the message and shown in</text>
+<text x="1642" y="1934.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">the UI.</text>
+<rect x="2164" y="1744" width="590" height="254" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8" stroke-dasharray="7 5" />
+<text x="2178" y="1768" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#374151" text-anchor="start">Roadmap</text>
+<rect x="2717.6" y="1752" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="2730.7999999999997" y="1767" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O5</text>
+<circle cx="2181" cy="1787.5" r="2.6" fill="#6B7280"/>
+<text x="2192" y="1792.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Eval harness: labelled golden set, automated regression on prompts and</text>
+<text x="2192" y="1811.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">rules, CI gate (the rules.yaml header already points to it)</text>
+<circle cx="2181" cy="1828.5" r="2.6" fill="#6B7280"/>
+<text x="2192" y="1833.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Tracing and dashboards (OpenTelemetry / LangSmith) and alerting on fallback</text>
+<text x="2192" y="1852.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">rate</text>
+<circle cx="2181" cy="1869.5" r="2.6" fill="#6B7280"/>
+<text x="2192" y="1874.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Redis-backed rate limit for multi-worker; DB-level audit immutability on</text>
+<text x="2192" y="1893.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Postgres</text>
+<circle cx="2181" cy="1910.5" r="2.6" fill="#6B7280"/>
+<text x="2192" y="1915.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Tune OCR and rule thresholds on real scans</text>
+<rect x="30" y="2026" width="2740" height="316" rx="16" fill="#F8FAFC" stroke="#334155" stroke-width="1.6" />
+<text x="46" y="2054" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#0F172A" text-anchor="start" letter-spacing="1.2">HOW THE ARCHITECTURE ANSWERS EACH EVALUATION CRITERION</text>
+<rect x="46.0" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#0369A1" stroke-width="2" />
+<path d="M46.0,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#0369A1"/>
+<circle cx="68.0" cy="2097" r="13" fill="#fff"/>
+<text x="68.0" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#0369A1" text-anchor="middle">1</text>
+<text x="90.0" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Business impact and FS relevance</text>
+<circle cx="60.0" cy="2132" r="2.6" fill="#0369A1"/>
+<text x="70.0" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Real workflow: retail account opening and KYC,</text>
+<text x="70.0" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">where analysts re-key and cross-check IDs by hand.</text>
+<circle cx="60.0" cy="2171.0" r="2.6" fill="#0369A1"/>
+<text x="70.0" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">KPIs: submit-to-decision cycle time, analyst</text>
+<text x="70.0" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">minutes per case, first-time-right rate, RFI</text>
+<text x="70.0" y="2210.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">loops, drop-off before submit.</text>
+<circle cx="60.0" cy="2227.5" r="2.6" fill="#0369A1"/>
+<text x="70.0" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Zero autonomous decisions: audit and compliance</text>
+<text x="70.0" y="2249.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">friendly.</text>
+<rect x="434.2857142857143" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" />
+<path d="M434.2857142857143,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#16A34A"/>
+<circle cx="456.2857142857143" cy="2097" r="13" fill="#fff"/>
+<text x="456.2857142857143" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#16A34A" text-anchor="middle">2</text>
+<text x="478.2857142857143" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Grounding and correctness</text>
+<circle cx="448.2857142857143" cy="2132" r="2.6" fill="#16A34A"/>
+<text x="458.2857142857143" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Cite-or-refuse RAG with score and coverage</text>
+<text x="458.2857142857143" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">thresholds.</text>
+<circle cx="448.2857142857143" cy="2171.0" r="2.6" fill="#16A34A"/>
+<text x="458.2857142857143" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Per-field confidence and source; Aadhaar check</text>
+<text x="458.2857142857143" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">digit; cross-document matching.</text>
+<circle cx="448.2857142857143" cy="2210.0" r="2.6" fill="#16A34A"/>
+<text x="458.2857142857143" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Fallback values must appear in the OCR text. Flags</text>
+<text x="458.2857142857143" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">and scores come from rules, never the LLM.</text>
+<rect x="822.5714285714286" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#B91C1C" stroke-width="2" />
+<path d="M822.5714285714286,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#B91C1C"/>
+<circle cx="844.5714285714286" cy="2097" r="13" fill="#fff"/>
+<text x="844.5714285714286" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#B91C1C" text-anchor="middle">3</text>
+<text x="866.5714285714286" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Security and controls</text>
+<circle cx="836.5714285714286" cy="2132" r="2.6" fill="#B91C1C"/>
+<text x="846.5714285714286" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Injection defence at four layers: regex, DATA</text>
+<text x="846.5714285714286" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">tags, schema output, no write path.</text>
+<circle cx="836.5714285714286" cy="2171.0" r="2.6" fill="#B91C1C"/>
+<text x="846.5714285714286" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Least privilege: JWT roles, case scoping; the LLM</text>
+<text x="846.5714285714286" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">has no tools or DB access.</text>
+<circle cx="836.5714285714286" cy="2210.0" r="2.6" fill="#B91C1C"/>
+<text x="846.5714285714286" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Fernet at rest, masking, upload and PDF hardening,</text>
+<text x="846.5714285714286" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">rate limit.</text>
+<rect x="1210.857142857143" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#7E22CE" stroke-width="2" />
+<path d="M1210.857142857143,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#7E22CE"/>
+<circle cx="1232.857142857143" cy="2097" r="13" fill="#fff"/>
+<text x="1232.857142857143" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#7E22CE" text-anchor="middle">4</text>
+<text x="1254.857142857143" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Responsible AI and governance</text>
+<circle cx="1224.857142857143" cy="2132" r="2.6" fill="#7E22CE"/>
+<text x="1234.857142857143" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Human in the loop is structural: interrupt() plus</text>
+<text x="1234.857142857143" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">a single decision function.</text>
+<circle cx="1224.857142857143" cy="2171.0" r="2.6" fill="#7E22CE"/>
+<text x="1234.857142857143" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Refuses advice and approval prediction;</text>
+<text x="1234.857142857143" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">AI-assisted fields are flagged.</text>
+<circle cx="1224.857142857143" cy="2210.0" r="2.6" fill="#7E22CE"/>
+<text x="1234.857142857143" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Hash-chained audit trail; risk register mapped to</text>
+<text x="1234.857142857143" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">controls.</text>
+<rect x="1599.142857142857" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2" />
+<path d="M1599.142857142857,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#1D4ED8"/>
+<circle cx="1621.142857142857" cy="2097" r="13" fill="#fff"/>
+<text x="1621.142857142857" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#1D4ED8" text-anchor="middle">5</text>
+<text x="1643.142857142857" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">LLMOps and evaluation</text>
+<circle cx="1613.142857142857" cy="2132" r="2.6" fill="#1D4ED8"/>
+<text x="1623.142857142857" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">79 tests, injection regression, decision-boundary</text>
+<text x="1623.142857142857" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">test, 6 synthetic scenarios.</text>
+<circle cx="1613.142857142857" cy="2171.0" r="2.6" fill="#1D4ED8"/>
+<text x="1623.142857142857" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Prompt and rules versions recorded on every review</text>
+<text x="1623.142857142857" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">run.</text>
+<circle cx="1613.142857142857" cy="2210.0" r="2.6" fill="#1D4ED8"/>
+<text x="1623.142857142857" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">/health/llm token and fallback counters. Eval</text>
+<text x="1623.142857142857" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">harness and tracing on the roadmap.</text>
+<rect x="1987.4285714285713" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="2" />
+<path d="M1987.4285714285713,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#0F766E"/>
+<circle cx="2009.4285714285713" cy="2097" r="13" fill="#fff"/>
+<text x="2009.4285714285713" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#0F766E" text-anchor="middle">6</text>
+<text x="2031.4285714285713" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Architecture and engineering quality</text>
+<circle cx="2001.4285714285713" cy="2132" r="2.6" fill="#0F766E"/>
+<text x="2011.4285714285713" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Modular: agents, graphs, rules, OCR, LLM,</text>
+<text x="2011.4285714285713" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">security, services.</text>
+<circle cx="2001.4285714285713" cy="2171.0" r="2.6" fill="#0F766E"/>
+<text x="2011.4285714285713" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Protocol-based LLM and OCR interfaces; swap models</text>
+<text x="2011.4285714285713" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">or engines without touching flows.</text>
+<circle cx="2001.4285714285713" cy="2210.0" r="2.6" fill="#0F766E"/>
+<text x="2011.4285714285713" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Durable checkpoints, graceful degradation,</text>
+<text x="2011.4285714285713" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Postgres-ready, Dockerised.</text>
+<rect x="2375.714285714286" y="2070" width="378.2857142857143" height="262" rx="10" fill="#FFFFFF" stroke="#C2410C" stroke-width="2" />
+<path d="M2375.714285714286,2080 a10,10 0 0 1 10,-10 h358.2857142857143 a10,10 0 0 1 10,10 v44 h-378.2857142857143 z" fill="#C2410C"/>
+<circle cx="2397.714285714286" cy="2097" r="13" fill="#fff"/>
+<text x="2397.714285714286" y="2102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#C2410C" text-anchor="middle">7</text>
+<text x="2419.714285714286" y="2094" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Cost and performance</text>
+<circle cx="2389.714285714286" cy="2132" r="2.6" fill="#C2410C"/>
+<text x="2399.714285714286" y="2136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Deterministic-first: actions and regex skip the</text>
+<text x="2399.714285714286" y="2153.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">LLM; BM25 needs no embeddings.</text>
+<circle cx="2389.714285714286" cy="2171.0" r="2.6" fill="#C2410C"/>
+<text x="2399.714285714286" y="2175.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Text PDFs skip OCR; OCR is local; LLM fallback</text>
+<text x="2399.714285714286" y="2192.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">only for missing fields.</text>
+<circle cx="2389.714285714286" cy="2210.0" r="2.6" fill="#C2410C"/>
+<text x="2399.714285714286" y="2214.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">Short outputs (≤ 1,024 tokens, ≤ 120-word</text>
+<text x="2399.714285714286" y="2231.5" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">summary), temperature 0, per-prompt token</text>
+<text x="2399.714285714286" y="2249.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#111827" text-anchor="start">counters, cheaper router model.</text>
+<rect x="30" y="2364" width="2740" height="66" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3" />
+<text x="46" y="2390" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="800" fill="#0F172A" text-anchor="start" letter-spacing="1.2">LEGEND</text>
+<rect x="130" y="2375" width="40" height="22" rx="5" fill="#fff" stroke="#334155" stroke-width="1.8" />
+<text x="182" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Implemented in the repository</text>
+<rect x="430" y="2375" width="40" height="22" rx="5" fill="#fff" stroke="#6B7280" stroke-width="1.8" stroke-dasharray="6 4" />
+<text x="482" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Planned / roadmap</text>
+<circle cx="657" cy="2386" r="13" fill="#111827" stroke="#fff" stroke-width="2"/>
+<text x="657" y="2391" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="679" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Data-flow step</text>
+<rect x="923.6" y="2375" width="26.4" height="21" rx="5" fill="#B91C1C"/>
+<text x="936.8000000000001" y="2390" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">S1</text>
+<text x="960" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Security</text>
+<rect x="1123.6" y="2375" width="26.4" height="21" rx="5" fill="#15803D"/>
+<text x="1136.8" y="2390" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">G1</text>
+<text x="1160" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Grounding</text>
+<rect x="1333.6" y="2375" width="26.4" height="21" rx="5" fill="#7E22CE"/>
+<text x="1346.8" y="2390" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">H1</text>
+<text x="1370" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Responsible AI</text>
+<rect x="1553.6" y="2375" width="26.4" height="21" rx="5" fill="#1D4ED8"/>
+<text x="1566.8" y="2390" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">O1</text>
+<text x="1590" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">LLMOps</text>
+<circle cx="1730" cy="2386" r="10" fill="#0D9488"/>
+<text x="1730" y="2391" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+<text x="1748" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Service used by this node (A–E, right column)</text>
+<text x="130" y="2418" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B5563" text-anchor="start" font-style="italic">Code identifiers in this diagram (node, file and function names) are taken from the repository. Watchlist is a synthetic demo list; OCR runs in fixture mode unless PaddleOCR is installed.</text>
+<text x="2754" y="2392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0B1B3A" text-anchor="end">github.com/SudeshnaPathak/bank-onboarding-copilot</text>
+</svg>
