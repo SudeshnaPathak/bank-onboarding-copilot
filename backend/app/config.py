@@ -47,6 +47,11 @@ class Settings(BaseSettings):
     samples_dir: str = str(BASE_DIR.parent / "samples")
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
 
+    # LangSmith
+    langsmith_tracing: bool = False
+    langsmith_api_key: str = ""
+    langsmith_project: str = "bank-onboarding-copilot"
+
     rate_limit_per_min: int = 60
 
 

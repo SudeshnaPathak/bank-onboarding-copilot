@@ -3,6 +3,7 @@ from __future__ import annotations
 import logging
 from importlib import import_module
 from contextlib import asynccontextmanager
+import os
 
 from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -57,6 +58,10 @@ def create_app() -> FastAPI:
         app.include_router(r, prefix="/api")
     if settings.demo_mode:
         app.include_router(demo.router, prefix="/api")
+    if settings.langsmith_tracing:
+        os.environ["LANGSMITH_TRACING"] = "true"
+        os.environ["LANGSMITH_API_KEY"] = settings.langsmith_api_key
+        os.environ["LANGSMITH_PROJECT"] = settings.langsmith_project
 
     @app.get("/api/health", tags=["ops"])
     async def health() -> dict:
